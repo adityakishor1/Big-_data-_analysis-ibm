@@ -1,7 +1,7 @@
 # Python Code
 
 # Data Selection
-# Assuming you have downloaded the "rainfall in India 1901-2015" dataset as a CSV file
+
 import pandas as pd
 
 # Load the dataset into a DataFrame
@@ -28,8 +28,7 @@ print(f"Mean Rainfall: {mean_rainfall}")
 print(f"Standard Deviation of Rainfall: {std_dev_rainfall}")
 
 # SQL Command for Creating Database Table
-# Assuming you want to create a table to store the rainfall data
-# Make sure to replace 'your_table_name' and define the appropriate columns based on your dataset
+
 create_table_sql = '''
 CREATE TABLE your_table_name (
     Year INT,
